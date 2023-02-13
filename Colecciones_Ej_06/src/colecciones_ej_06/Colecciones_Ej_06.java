@@ -1,5 +1,7 @@
-
+ 
 package colecciones_ej_06;
+
+import servicio.servicioProducto;
 
 
 public class Colecciones_Ej_06 {
@@ -13,6 +15,8 @@ eliminar un producto y mostrar los productos que tenemos con su precio (Utilizar
 Hashmap). El HashMap tendrá de llave el nombre del producto y de valor el precio.
     */
     public static void main(String[] args) {
+        
+        servicioProducto serPro = new servicioProducto();
         
         
         

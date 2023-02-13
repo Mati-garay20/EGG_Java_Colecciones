@@ -22,6 +22,11 @@ public class Producto {
     public void setProducto(HashMap<String, Double> producto) {
         this.producto = producto;
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" + "producto=" + producto + '}';
+    }
    
    
     

@@ -1,6 +1,10 @@
 
 package colecciones_ej_04;
 
+import entiddes.Pelicula;
+import java.util.ArrayList;
+import servicios.ServisPel;
+
 
 public class Colecciones_Ej_04 {
 
@@ -25,6 +29,12 @@ pantalla.
 • Ordenar las películas por director, alfabéticamente y mostrarlo en pantalla.
      */
     public static void main(String[] args) {
+        
+        
+        ServisPel serPel = new ServisPel();
+        
+        ArrayList <Pelicula> vista = new ArrayList();
+        
         
     }
     

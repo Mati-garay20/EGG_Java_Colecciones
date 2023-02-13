@@ -21,12 +21,19 @@ public class servicioProducto {
         
         HashMap<String,Double> P1 = new HashMap();
         
+        int opcion;
+        do{
+        
         System.out.println("Ingrese un producto");
         String producto = sc.nextLine();
         
         System.out.println("Ingrese el precio");
         Double precio = sc.nextDouble();
         
+            System.out.println("¿Quiere agregar otro producto? (1-Si / 2-NO) ");
+            opcion = sc.nextInt();
+            
+        }while(opcion == 1);
     
         return P1.put(producto, precio);
 }
